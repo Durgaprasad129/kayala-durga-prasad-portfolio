@@ -15,16 +15,15 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="order-2 lg:order-1">
             <div className="relative">
-              <div className="w-80 h-80 mx-auto rounded-2xl bg-gradient-to-br from-teal-400/20 to-teal-600/20 flex items-center justify-center border border-teal-500/20">
-                <div className="text-center">
-                  <div className="w-32 h-32 rounded-full bg-teal-500/20 mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-4xl font-bold gradient-text">KDP</span>
-                  </div>
-                  <p className="text-muted-foreground">Profile Picture</p>
-                </div>
+              <div className="w-80 h-80 mx-auto rounded-2xl overflow-hidden border border-teal-500/20 hover-glow">
+                <img 
+                  src="/lovable-uploads/fa5fa7c8-a95e-4469-b6fa-048fd84c7ab8.png" 
+                  alt="Kayala Durga Prasad"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-teal-500 rounded-full animate-glow"></div>
               <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-teal-400 rounded-full animate-pulse"></div>
